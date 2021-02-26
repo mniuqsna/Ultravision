@@ -60,8 +60,6 @@ h2 {
 }
 
 .titre-paragraphe{
-  width: 640px;
-  height: 33px;
   margin: 0 31px 34px 48px;
   font-size: 24px;
   font-weight: bold;
@@ -84,18 +82,14 @@ flex-grow: 1;
 }
 
 .ordi1{
-  width: 487px;
-  height: 471px;
   object-fit: contain;
   display: block;
   mix-blend-mode: darken;
   margin-left: auto;
-  margin-top: 40px;
+  margin-top: auto;
 }
 
 .paragraphe1 {
-  width: 640px;
-  height: 345px;
   margin: 34px 31px 30px 48px;
   font-size: 16px;
   text-align: justify;
@@ -109,11 +103,6 @@ flex-grow: 1;
   border-radius: 15px;
   font-weight: bold;
   color: #fcce00;
-  text-align: auto;
-}
-
-.bouton{
-  text-align: right;
 }
 
 .rectangle{
@@ -122,4 +111,46 @@ flex-grow: 1;
   margin: 30px 31px 22px 455px;
   padding: 10px 36px;
   border-radius: 15px;
-  border: solid 4px
+  border: solid 4px;
+}
+
+.bloc2{
+    background-image: url(../img/bg-orange.svg);
+    text-align: left;
+  }
+
+  .ordi2{
+
+    object-fit: contain;
+    display: block;
+    mix-blend-mode: darken;
+    margin-left: auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .paragraphe2 {
+
+    margin: 34px 31px 30px 48px;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .bouton2{
+    width: 185px;
+    height: 48px;
+    margin: 30px 31px 22px 455px;
+    padding: 10px 36px;
+    border-radius: 15px;
+    border-solid: 4px;
+    font-weight: bold;
+    color: #ff6b00;
+  }
+
+  .rectangle2{
+    width: 185px;
+    height: 48px;
+    margin: 30px 31px 22px 455px;
+    padding: 10px 36px;
+    border-radius: 15px;
+    border: solid 4px;
