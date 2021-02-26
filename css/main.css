@@ -183,6 +183,20 @@ flex-grow: 1;
   background-image: url(../img/bg-red.svg);
 }
 
+.titre-paragraphe3{
+  margin: 30px 31px 34px 48px;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+.paragraphe3 {
+  margin: 34px 31px 30px 48px;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}
+
 .titre-paragraphe4{
   margin: 30px 31px 34px 48px;
   font-size: 32px;
@@ -287,4 +301,14 @@ background-image: url(../img/bg-blue.svg);
   color: white;
   align-items: center;
   justify-content: center;
+}
+
+.titre-paragraphe6{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.label{
+  color: white;
 }
