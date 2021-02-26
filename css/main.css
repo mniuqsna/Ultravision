@@ -263,3 +263,28 @@ background-image: url(../img/bg-blue.svg);
   background-color: black;
   padding: 64px;
 }
+
+.jeux-video{
+  position: relative;
+}
+
+.grid-jeux{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.effet-jeux{
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
