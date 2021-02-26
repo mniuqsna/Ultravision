@@ -1,65 +1,125 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
-
 body {
-  /* Default font family and font color */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color:#231f20;
 }
-
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
-}
-
-
 
 h1 {
-   /* Default font, size, and margins */
+  font-size:88px;
 }
 
 h2 {
-  /* Default font, size, and margins */
+  font-size:40px;
+  text-align: center;
+  font-weight: bold;
 }
 
-h3 {
-  /* Default font, size, and margins */
+.header-title {
+  padding: 15px;
+  background-color: #fcce00a8;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+}
+.header-subtitle {
+  padding: 15px;
+  font-size: 38px;
+  background-color: #ff6b00bd;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
 }
 
-h4 {
-  /* Default font, size, and margins */
+.header-stripe{
+  margin: 8px 0;
 }
 
-h5 {
-  /* Default font, size, and margins */
+.header-stripe--red{
+  height: 32px;
+  background-color: #e02020bd;
+}
+.header-stripe--purple{
+  height: 16px;
+  background-color: #b620e0bd;
+}
+.header-stripe--blue{
+  height: 8px;
+  background-color: #6236ffbd;
 }
 
-h6 {
-  /* Default font, size, and margins */
+.section-title{
+  color: #231f20;
+  margin: 64px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
 }
 
-
-a {
-  /* Link color */
+.titre-paragraphe{
+  width: 640px;
+  height: 33px;
+  margin: 0 31px 34px 48px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
 
-a:hover {
-  /* Link color on mouse over */
+.colonnes {
+display: flex;
+justify-content: space-around;
+align-items: stretch;
 }
 
+.bloc {
+flex-basis: 0;
+flex-grow: 1;
+}
 
-/**
-* ------
-* Layout
-* ------
-*/
+.bloc1{
+  background-image: url(../img/bg-yellow.svg);
+}
 
+.ordi1{
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+  margin-top: 40px;
+}
 
+.paragraphe1 {
+  width: 640px;
+  height: 345px;
+  margin: 34px 31px 30px 48px;
+  font-size: 16px;
+  text-align: justify;
+}
 
+.bouton1{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #fcce00;
+  text-align: auto;
+}
 
-/**
-* ----------
-* Components
-* ----------
-*/
+.bouton{
+  text-align: right;
+}
+
+.rectangle{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1px" height="512px" viewBox="0 0 1 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>E463E043-4960-4133-B46E-912C6FA438DC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="720" height="512"></rect>
+        <rect id="path-3" x="0" y="0" width="720" height="512"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ultravision---Home---Desktop" transform="translate(-720.000000, -472.000000)">
+            <g id="Group-4" transform="translate(48.000000, 472.000000)">
+                <g id="background" transform="translate(672.000000, 0.000000)" fill="#FCCE00">
+                    <rect id="Rectangle-Copy-7" opacity="0.808640253" x="0" y="0" width="720" height="256"></rect>
+                    <rect id="Rectangle-Copy-10" opacity="0.60864" x="0" y="256" width="720" height="128"></rect>
+                    <rect id="Rectangle-Copy-3" opacity="0.40864" x="0" y="384" width="720" height="64"></rect>
+                    <rect id="Rectangle-Copy-11" opacity="0.19864" x="0" y="448" width="720" height="32"></rect>
+                    <rect id="Rectangle-Copy-12" opacity="0.09864" x="0" y="480" width="720" height="16"></rect>
+                    <rect id="Rectangle-Copy-13" opacity="0.0452778348" x="0" y="496" width="720" height="16"></rect>
+                </g>
+                <g id="product" style="mix-blend-mode: darken;" transform="translate(671.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                </g>
+                <g id="product" style="mix-blend-mode: darken;" transform="translate(672.000000, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
